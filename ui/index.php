@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Simple RestApi</title>
+    <title>Verkkopankki</title>
    
       <script src="rest.js"></script>
   </head>
@@ -16,7 +16,8 @@
     }
     else {
       echo 'Tervetuloa vieras ';
-      echo '<a href="login.html"><button>Kirjaudu</button></a>';
+      echo '<a href="../ui/login.html"><button>Kirjaudu</button></a>';
+      
     }
   ?>
   <hr>
@@ -25,7 +26,7 @@
 <div class="container">
 
     <p>
-        <button class="btn btn-primary" onclick="GetBooks()">Kaikki kirjat</button>
+        <button class="btn btn-primary" onclick="Tilitapahtumat()">Tilitapahtumat</button>
 
         Anna kirjan id
         <input type="text" id="book_id">
