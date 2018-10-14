@@ -28,42 +28,7 @@
     <p>
         <button class="btn btn-primary" onclick="Tilitapahtumat()">Tilitapahtumat</button>
 
-        Anna kirjan id
-        <input type="text" id="book_id">
-        <button onclick="GetBooks_by_id()">Etsi kirja</button>
-    </p>
-
-    <p>
-        Lisää kirja
-        <br>
-        <form id='BookForm'>
-            <label for="name">Book name</label> <br>
-            <input type="text" name="name" id="name"> <br>
-            <label for="author">Author</label> <br>
-            <input type="text" name="author" id="author"> <br>
-        </form>
-        <button onclick="AddBook()">Lisää kirja</button>
-    </p>
-    <p>
-      Anna poistettavan kirjan id
-      <input type="number" id="delete_id">
-      <button class="btn btn-danger" onclick="DeleteBook()">Poista</button>
-    </p>
-
-    <p>
-        Muokkaa kirja
-        <br>
-        <form id='UpdateForm'>
-          <label for="name">Book id</label> <br>
-          <input type="text" name="idBooks" id="idBooks"> <br>
-            <label for="name">Book name</label> <br>
-            <input type="text" name="name" id="name"> <br>
-            <label for="author">Author</label> <br>
-            <input type="text" name="author" id="author"> <br>
-        </form>
-        <button onclick="UpdateBook()">Tallenna</button>
-    </p>
-
+     
 
     <div id="results"></div>
   </div>

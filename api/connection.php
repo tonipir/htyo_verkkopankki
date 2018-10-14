@@ -4,7 +4,7 @@
 	 $conn_string = "mysql:host=localhost;dbname=t8pito01";
 	 $db = new PDO ($conn_string, "t8pito01", "seppotaalasmaa");
 	 $db->setAttribute (PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	 //print ("Connected\n");
+	
 	}
 	catch (PDOException $e)
 	{

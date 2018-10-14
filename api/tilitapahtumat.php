@@ -1,6 +1,14 @@
 <?php
 	require "connection.php";
-	$sql = "SELECT Etunimi, Sukunimi FROM opiskelija ;";
+        
+       
+        
+        
+        
+        
+        
+        
+	$sql = "SELECT Pvm,Saaja, Viite, Selite, Saajan_tili, Summa FROM tilitapahtumat WHERE idTili = '1' ;";
 
 	$resultObject = $db->query($sql);
 

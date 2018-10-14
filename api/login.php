@@ -19,6 +19,6 @@ require "connection.php";
         exit();
     }
     else {
-      header("Location: ../htyo_verkkopankki/ui/login.html"); 
+      header("Location: http://jukkajauhiainen.ipt.oamk.fi/~t8pito01/htyo_verkkopankki/ui/login.html"); 
     }
 ?>
