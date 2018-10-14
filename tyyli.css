@@ -6,47 +6,9 @@ html,
 
 
 #Header{
-  background-color: lightblue;
-}
-
-#Menu{
-  float: left;
-  width: 150px;
+  
+  text-align: center;
   height: 100%;
-  font-size: 20px;
-  background-color: blue;
-}
-#Menu ul li{
-  list-style: none;
-  text-decoration: none;
-
-}
-#Menu ul li a:hover{
-  background-color: lightblue;
-}
-#Content{
-
-  margin-left: 160px;
-
-}
-#Footer{
-  background-color: lightblue;
+  font-size: 50px;
 }
 
-#sourceForm
-
-{
-	background-color: yellow;
-	border-radius: 10px;
-	padding: 10px;
-	width:400px;
-
-}
-
-#targetForm
-{
-	background-color: green;
-	border-radius: 10px;
-	padding: 10px;
-	width:400px;
-}
