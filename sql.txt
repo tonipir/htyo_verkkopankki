@@ -1,0 +1,23 @@
+create database simple_rest_api;
+use simple_rest_api;
+
+create table Books(
+idBooks INT PRIMARY KEY auto_increment,
+name VARCHAR(50),
+author VARCHAR(50)
+);
+
+INSERT INTO Books (author, name) VALUES('Aleksis Kivi', 'Seitsemän veljestä');
+INSERT INTO Books (author, name) VALUES('Aapeli', 'Siunattu hulluus');
+
+GRANT ALL ON simple_rest_api.* TO 'webuser'@'localhost' IDENTIFIED BY 'webpass';
+
+
+--LOGIN SYSTEEMI
+CREATE table users(
+idUsers SMALLINT primary key,
+username VARCHAR(50),
+password VARCHAR(50) );
+
+INSERT INTO users VALUES (1,'jussi','jussi123');
+INSERT INTO users VALUES (2,'liisa','liisa123');
