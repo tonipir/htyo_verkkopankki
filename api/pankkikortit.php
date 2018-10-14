@@ -1,7 +1,7 @@
 <?php
 	require "connection.php";
         
-	$sql = "SELECT Pvm,Saaja, Viite, Selite, Saajan_tili, Summa FROM tilitapahtumat WHERE idTili = '1' ;";
+	$sql = "SELECT Kortin_tyyppi, Voimassa FROM pankkikortti WHERE idKortti = '1' ;";
 
 	$resultObject = $db->query($sql);
 

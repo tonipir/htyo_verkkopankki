@@ -27,8 +27,33 @@
 
     <p>
         <button class="btn btn-primary" onclick="Tilitapahtumat()">Tilitapahtumat</button>
+        <button class="btn btn-primary" onclick="Pankkikortit()">Pankkikortit</button>
+        <button class="btn btn-primary" onclick="Maksetutmaksut()">Maksetut maksut</button>
+     <p>
+        Uusi maksu
+        <br>
+        
+        
+        
+        
+        <form action="http://jukkajauhiainen.ipt.oamk.fi/~t8pito01/htyo_verkkopankki/api/uusimaksu.php" method="post">
+Maksun numero: <input type="text" name="mn"> <br>
+Saajan nimi: <input type="text" name="nimi"> <br>
+Viite: <input type="text" name="viite"> <br>
+Saajan Tilinumero: <input type="text" name="st"> <br>
+Summa: <input type="text" name="summa"> <br>
 
-     
+
+<input type="submit">
+</form>
+            
+            
+            
+  
+        
+        
+    
+    
 
     <div id="results"></div>
   </div>
