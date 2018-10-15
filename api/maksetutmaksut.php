@@ -1,7 +1,7 @@
 <?php
-	require "connection.php";
+	require "connection.php";//luodaan jälleen mysql yhteys connection.php:n kautta
         
-	$sql = "SELECT Saaja, Viite, Saajan_tili, Summa FROM maksetut ;";
+	$sql = "SELECT Saaja, Viite, Saajan_tili, Summa FROM maksetut ;"; //tulostetaan taulusta maksetut tarvittavat tiedot
 
 	$resultObject = $db->query($sql);
 

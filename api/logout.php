@@ -1,5 +1,5 @@
 <?php
-        session_start();
+        session_start();//aukaistaan sessio sen lopettamista varten
         session_destroy();
-        header("Location: ../ui/login.html");
-?>
+        header("Location: ../ui/login.html");//siirrytään kirjautumissivulle
+?> 
